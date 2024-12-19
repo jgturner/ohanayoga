@@ -13,7 +13,7 @@ export default function Memberships() {
           </p>
 
           <ul className="d-flex gap-2 list-unstyled">
-            <li className="btn btn-dark w-75 healcode">
+            <li className="btn btn-dark w-100 healcode">
               <healcode-widget
                 data-version="0.2"
                 data-link-class="healcode-pricing-option-text-link"
@@ -35,7 +35,7 @@ export default function Memberships() {
           </p>
 
           <ul className="d-flex gap-2 list-unstyled">
-            <li className="btn btn-dark w-75 healcode">
+            <li className="btn btn-dark w-100 healcode">
               <healcode-widget
                 data-version="0.2"
                 data-link-class="healcode-pricing-option-text-link"
@@ -57,7 +57,7 @@ export default function Memberships() {
           </p>
 
           <ul className="d-flex gap-2 list-unstyled">
-            <li className="btn btn-dark w-75 healcode">
+            <li className="btn btn-dark w-100 healcode">
               <healcode-widget
                 data-version="0.2"
                 data-link-class="healcode-pricing-option-text-link"

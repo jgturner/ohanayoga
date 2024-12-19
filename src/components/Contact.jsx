@@ -1,15 +1,15 @@
 export default function Contact() {
   return (
     <div className="row mb-5 pb-3">
-      <div className="col-md-6 p-2 d-none d-md-block">
-        <img src="./img/bottom.jpg" className="img-fluid object-fit-cover rounded" alt="brazilian jiu jitsu" style={{ width: '100%', height: '100%' }} />
+      <div className="col-md-6 p-2 ">
+        <img src="./img/bottom-new.jpg" className="img-fluid object-fit-cover rounded" alt="brazilian jiu jitsu" style={{ width: '100%', height: '100%' }} />
       </div>
       <div className="col-sm-12 col-md-6">
         <h1 id="contact" className="mb-3">
           Contact Us
         </h1>
-        <p>Got a question, comment, or feedback? Send us a message.</p>
-        <form name="contant" netlify>
+        <p>Have a question or want to chat? Connect with us @:</p>
+        {/* <form name="contant" netlify>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
               Name
@@ -38,7 +38,19 @@ export default function Contact() {
           <button type="submit" className="w-100 btn btn-dark mt-2">
             Submit
           </button>
-        </form>
+        </form> */}
+
+        <a class="mb-3 w-100 btn btn-outline-dark" href="https://www.facebook.com/OhanaYogaNC" target="_blank" rel="noreferrer">
+          <i class="fab fa-facebook-square fa-lg contact-icon"></i>
+        </a>
+
+        <a class="mb-3 w-100 btn btn-outline-dark" href="https://www.instagram.com/ohanayoganc/">
+          <i class="fab fa-instagram fa-lg contact-icon"></i>
+        </a>
+
+        <a class="d-block mb-3 btn btn-outline-dark py-2" href="sms:808-342-8744">
+          <i class="fas fa-mobile-alt fa-lg contact-icon"></i>{' '}
+        </a>
       </div>
     </div>
   );
