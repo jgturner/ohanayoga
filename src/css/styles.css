@@ -1,0 +1,43 @@
+#hero {
+  background-image: url(../../public/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 98%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+.custom-border {
+  border-bottom: 2px solid #000;
+}
+
+.full-btn {
+  width: 100%;
+}
+
+.healcode a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 769px) {
+  h1 {
+    font-size: 300%;
+  }
+}
