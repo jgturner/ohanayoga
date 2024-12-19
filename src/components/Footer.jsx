@@ -10,7 +10,7 @@ export default function Footer() {
           <h3 className="mb-3">Follow Us</h3>
           <ul className="list-unstyled d-flex flex-column gap-2">
             <li>
-              <a className="nav-link" href="https://www.instagram.com/twistedyogibear/">
+              <a className="nav-link" href="https://www.instagram.com/ohanayoganc/">
                 <i className="fab fa-instagram"></i> Instagram
               </a>
             </li>
