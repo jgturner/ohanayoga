@@ -1,4 +1,6 @@
 export default function Footer() {
+  const date = new Date();
+
   return (
     <>
       <div id="footer" className="row justify-content-center mt-5">
@@ -48,7 +50,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <p className="mt-5 mb-0 text-center pb-4">&copy; 2023 Ohana Yoga NC 🐐</p>
+        <p className="mt-5 mb-0 text-center pb-4">&copy; {date.getFullYear()} Ohana Yoga NC 🐐</p>
       </div>
     </>
   );
