@@ -2,7 +2,7 @@ export default function Instructor() {
   return (
     <div className="row mb-3 pb-5 custom-border">
       <div className="col-md-6 col-sm-12">
-        <img src="./img/nick.png" alt="Nick Freitas" className="img-fluid rounded" />
+        <img src="./img/nick.png" alt="Nick Freitas owner and instructor of Ohana Yoga Jacksonville NC." className="img-fluid rounded" />
       </div>
       <div className="col my-auto">
         <h1 className="mb-3 mb-md-3">Instructor</h1>

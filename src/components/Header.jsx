@@ -5,7 +5,7 @@ export default function Header() {
         <div class="navbar navbar-expand-lg navbar-white bg-white">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-              <img src="./img/nav-logo.png" alt="Logo" height="40" />
+              <img src="./img/nav-logo.png" alt="ohana yoga jacksonville nc logo" height="40" />
             </a>
             <button
               class="navbar-toggler"

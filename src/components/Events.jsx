@@ -10,7 +10,7 @@ export default function Events() {
           under the stars or indulging in a wine tasting after a session, these events offer a refreshing change of pace to the traditional yoga studio experience.
         </p>
 
-        <img src="./img/events image.jpg" className="img-fluid d-flex mx-auto" alt="events pic" />
+        <img src="./img/events image.jpg" className="img-fluid d-flex mx-auto" alt="Ohana Yoga Events, Bonfire Yoga and Namaste and Wine." />
       </div>
     </div>
   );

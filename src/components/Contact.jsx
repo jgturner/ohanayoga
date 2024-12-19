@@ -2,7 +2,12 @@ export default function Contact() {
   return (
     <div className="row mb-5 pb-3">
       <div className="col-md-6 p-2 ">
-        <img src="./img/bottom-new.jpg" className="img-fluid object-fit-cover rounded" alt="brazilian jiu jitsu" style={{ width: '100%', height: '100%' }} />
+        <img
+          src="./img/bottom-new.jpg"
+          className="img-fluid object-fit-cover rounded"
+          alt="Ohana yoga instructor Nick Frietas doing a yoga pose on a rocky outcropping of the beach."
+          style={{ width: '100%', height: '100%' }}
+        />
       </div>
       <div className="col-sm-12 col-md-6">
         <h1 id="contact" className="mb-3">
