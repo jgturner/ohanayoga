@@ -1,38 +1,10 @@
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-
-const Header = () => {
+export default function Header() {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row overflow-hidden">
-          <nav className="d-flex justify-content-end gap-4 p-3">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-            <HashLink href="/#schedule" className="nav-link">
-              Schedule
-            </HashLink>
-            <HashLink to="/#memberships" className="nav-link">
-              Memberships
-            </HashLink>
-            <HashLink to="/#location" className="nav-link">
-              Location
-            </HashLink>
-            <HashLink to="/#contact" className="nav-link">
-              Contact
-            </HashLink>
-            <Link to="/About" className="nav-link">
-              About
-            </Link>
-          </nav>
-        </div>
-      </div>
-
       <div class="container">
         <div class="navbar navbar-expand-lg navbar-white bg-white">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="./img/nav-logo.png" alt="Logo" height="40" />
             </a>
             <button
@@ -75,6 +47,4 @@ const Header = () => {
       </div>
     </>
   );
-};
-
-export default Header;
+}

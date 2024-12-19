@@ -1,4 +1,4 @@
-const Location = () => {
+export default function Location() {
   return (
     <div className="row custom-border mb-5 pb-5">
       <div className="col-12">
@@ -6,8 +6,7 @@ const Location = () => {
           Location
         </h1>
         <p>
-          <i className="fas fa-map-marker-alt"></i> 233 Western Blvd I,
-          Jacksonville, NC 28546
+          <i className="fas fa-map-marker-alt"></i> 233 Western Blvd I, Jacksonville, NC 28546
         </p>
         <p>
           <i className="fas fa-phone-alt"></i> 808-342-8744
@@ -27,6 +26,4 @@ const Location = () => {
       </div>
     </div>
   );
-};
-
-export default Location;
+}

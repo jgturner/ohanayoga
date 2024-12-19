@@ -1,13 +1,9 @@
-const Hero = () => {
+export default function Hero() {
   return (
     <div className="container-fluid p-0 mb-5 overflow-hidden" id="hero">
       <div className="row d-flex flex-column justify-content-center align-items-center">
         <div id="hero-logo" className="col-md-8 col-lg-4 col-8 mt-4">
-          <img
-            src="./img/herologoa.png"
-            alt=""
-            className="img-fluid d-flex mx-auto"
-          />
+          <img src="./img/herologoa.png" alt="" className="img-fluid d-flex mx-auto" />
         </div>
       </div>
       <div className="row justify-content-center pb-5">
@@ -19,6 +15,4 @@ const Hero = () => {
       </div>
     </div>
   );
-};
-
-export default Hero;
+}
