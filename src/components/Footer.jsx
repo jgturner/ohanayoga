@@ -1,6 +1,14 @@
 export default function Footer() {
   const date = new Date();
 
+  //Smooth Scroll
+  function smoothScroll(location) {
+    const anchor = document.querySelector(`#${location}`);
+    console.log(anchor);
+
+    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   return (
     <>
       <div id="footer" className="row justify-content-center mt-5">
@@ -27,25 +35,25 @@ export default function Footer() {
           <h3 className="mb-3">Site Map</h3>
           <ul className="list-unstyled d-flex flex-column gap-2">
             <li>
-              <a className="nav-link text-left" href="/#schedule">
+              <div className="nav-link text-left" onClick={() => smoothScroll('schedule')}>
                 Schedule
-              </a>
+              </div>
             </li>
             <li>
-              <a className="nav-link" href="/#memberships">
+              <div className="nav-link" onClick={() => smoothScroll('memberships')}>
                 Memberships
-              </a>
+              </div>
             </li>
 
             <li>
-              <a className="nav-link" href="/#location">
+              <div className="nav-link" onClick={() => smoothScroll('location')}>
                 Location
-              </a>
+              </div>
             </li>
             <li>
-              <a className="nav-link" href="/#contact">
+              <div className="nav-link" onClick={() => smoothScroll('contact')}>
                 Contact Us
-              </a>
+              </div>
             </li>
           </ul>
         </div>
