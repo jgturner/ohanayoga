@@ -1,13 +1,7 @@
+import NavLink from './NavLink';
+
 export default function Footer() {
   const date = new Date();
-
-  //Smooth Scroll
-  function smoothScroll(location) {
-    const anchor = document.querySelector(`#${location}`);
-    console.log(anchor);
-
-    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
 
   return (
     <>
@@ -35,25 +29,17 @@ export default function Footer() {
           <h3 className="mb-3">Site Map</h3>
           <ul className="list-unstyled d-flex flex-column gap-2">
             <li>
-              <div className="nav-link text-left" onClick={() => smoothScroll('schedule')}>
-                Schedule
-              </div>
+              <NavLink navLocation="schedule" />
             </li>
             <li>
-              <div className="nav-link" onClick={() => smoothScroll('memberships')}>
-                Memberships
-              </div>
+              <NavLink navLocation="memberships" />
             </li>
 
             <li>
-              <div className="nav-link" onClick={() => smoothScroll('location')}>
-                Location
-              </div>
+              <NavLink navLocation="location" />
             </li>
             <li>
-              <div className="nav-link" onClick={() => smoothScroll('contact')}>
-                Contact Us
-              </div>
+              <NavLink navLocation="contact" />
             </li>
           </ul>
         </div>
