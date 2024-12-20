@@ -1,4 +1,12 @@
 export default function Header() {
+  //Smooth Scroll
+  function smoothScroll(location) {
+    const anchor = document.querySelector(`#${location}`);
+    console.log(anchor);
+
+    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   return (
     <>
       <div class="container">
@@ -21,24 +29,24 @@ export default function Header() {
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#schedule">
+                  <div class="nav-link" onClick={() => smoothScroll('schedule')}>
                     Schedule
-                  </a>
+                  </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#memberships">
+                  <div class="nav-link" onClick={() => smoothScroll('memberships')}>
                     Memberships
-                  </a>
+                  </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#location">
+                  <div class="nav-link" onClick={() => smoothScroll('location')}>
                     Location
-                  </a>
+                  </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">
+                  <div class="nav-link" onClick={() => smoothScroll('contact')}>
                     Contact
-                  </a>
+                  </div>
                 </li>
               </ul>
             </div>
